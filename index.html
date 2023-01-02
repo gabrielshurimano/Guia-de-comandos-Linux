@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <man>
+        <h1>👩‍💻 Aqui está a lista com os principais comandos do Linux que você pode usar</h1>
+
+        <h2 id="hierarquia">🤴🏻 Hierarquia</h2>
+
+        <p id="texto1">o <b>Root</b> também representado como “<big><b>/</b></big>” é a primeira primeira hierarquia do sistema de arquivos,
+        sendo a Hierarquia primária.</p>
+
+        <p class="diretorios">
+            <big>Algumas das principais hierarquias do sistema:</big></br>
+            <b>/boot/</b> = Arquivos do sistema de Boot; </br>
+            <b>/dev/</b> = Arquivos de dispositivos; </br>
+            <b>/etc/</b> = arquivos de configuração do sistema; </br>
+            <b>/home/</b> = Diretório dos usuários comuns do sistema; </br>
+            <b>/lib/</b> = Bibliotecas essenciais do sistema e os módulos do Kernel; </br>
+            <b>/opt/</b> = Instalação de programas não oficiais da distribuição ou feita pelo usuário; </br>
+            <b>/sbin/</b> = Armazena comandos executáveis como o “shutdown”; </br>
+            <b>/srv/</b>= Diretório para dados de serviços fornecidos pelo sistema; </br>
+            <b>/tmp/</b> = Diretório para arquivos temporários; </br>
+            <b>/usr/</b> = Segunda hierarquia sistema, onde ficam os usuários comuns do sistema e programas; </br>
+            <b>/var/</b> = Diretório com arquivos variáveis gerados pelos programas do sistema, como logs, email e cache; </br>
+            <b>/root/</b> = Diretório do usuário root; </br>
+            <b>/proc/</b> = Diretório virtual controlado pelo Kernel com configuração total do sistema;
+            </p>
+
+        <p class="divisao">✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻</p>
+
+        <h2>🌎 Atalhos Globais</h2>
+
+        <section>
+
+            <p class="atalhos">
+                <b>CTRL + A</b> = jogar o curso de digitação para o começo da linha de um comando;<br>
+                <b>CTRL + E</b> = jogar o curso de digitação para o final da linha de um comando;<br>
+                <b>CTRL + U</b> =Apagar um comando digitado na tela;<br>
+                <b>CTRL + W</b> = Apaga a última palavra digitada em uma linha de comando;<br>
+                <b>CTRL + R</b> = Busca recursiva, basta digitar o início de um comando que o </br>terminal irá comparar com outros comandos já recebidos irá tentar completar o comando;
+                <b>!!</b> = Executa o último comando que rodou;<br>
+                <b>CTRL + D</b> =  Fecha  sessão aberta, como o comando “exit”;<br>
+                <b>CTRL + C</b> = Cancela comando atual em funcionamento;<br>
+                <b>CTRL + Z</b> = Pausa o comando atual
+                -> quando você realiza o comando de pausa processos o comando vai ficar parado, mas consumindo memória ram ainda, irá aparecer uma mensagem do tipo no seu terminal:
+                </br>
+            </p>
+            <img class="imagemcontraz1" src="./img/contraZ.jpeg" alt="demostra das tarefas parada">
+            <p class="contraZ">
+                Informando que o comando foi pausado e apresentando um <u>número de identificação para ele</u>.
+                Caso você queira ver todos os comandos parados no terminal, você pode dar o comando “<big><b>$jobs</b></big>” que o terminal irá listar todos os comandos pausados com seus códigos de identificação:           
+            </p>
+
+            <img class="imagemcontraz2" src="./img/contraZ2.jpeg" alt="imagem apresentando o comandos jobs">
+            <p class="contraZ">
+
+                Caso você queira voltar a rodar o comando em <b>Primeiro plano</b> basta digitar o comando “<b>fg</b>” e o número de identificação do comando pausado, exemplo.: 
+
+            </p>
+            <img src="./img/contraZ3.jpeg" alt="apresentando o comando fg">
+            <p class="contraZ">
+
+                Caso você queira voltar a rodar o comando em <b>Segundo plano</b> basta digitar o comando “<b>bg</b>” e o número de identificação do comando pausado, exemplo.: “<b>bg 1</b>”
+
+            </p>
+        </section>
+
+        <p class="divisao">✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻✍🏻</p>
+
+        <h2>👩‍💻 Comandos</h2>
+        <p class="comandos_linux">
+            Antes de tudo aqui vai algumas dicas para tirar dúvidas sobre o uso de algo comando:
+           Quando precisar de uma breve descrição  de um comando você pode usar o “<b>--help</b>”
+           Exemplo.: <b>ls –help</b> </br>
+           Você também pode consultar o manual de cada comando dentro do próprio terminal com o comando “<b>man</b>”, exemplo.: “<b>man cat</b>”
+
+        </p>
+    </man>
+
+</body>
+</html>
