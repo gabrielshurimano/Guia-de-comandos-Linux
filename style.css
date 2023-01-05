@@ -10,7 +10,10 @@ body{
 main{
     
     margin: 10vw;
-    padding: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     background-color: white;
     border: inset 2px rgba(2, 5, 15, 0.1);
    
@@ -18,17 +21,24 @@ main{
 
 /*Alinnhando imagens*/
 img{
-    margin-left:20vw ;
-    margin-right: 20vw;
     margin-top: 25px;
     margin-bottom:25px ;
     border: solid 2px blue;
     
 }
 
+.imagemcontraz1{
+    margin-left:11vw ;
+    margin-right:5vw;
+}
+
 .imagemcontraz2{
-    margin-left:30vw ;
-    margin-right:30vw;
+    margin-left:22vw ;
+    margin-right:25vw;
+}
+.imagemcontraz3{
+    margin-left:12vw ;
+    margin-right:10vw;
 }
 
 /*Alinnhando textos*/
